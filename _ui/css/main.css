@@ -1,0 +1,283 @@
+/* normalize.css v2.1.0 | MIT License | git.io/normalize */
+/* Correct `block` display not defined in IE 8/9. */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nickkatarow\/Sites\/nkatarow\.net\/_ui\/css\/sass\/_normalize\.scss}line{font-family:\0000317}}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/* Correct `inline-block` display not defined in IE 8/9. */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nickkatarow\/Sites\/nkatarow\.net\/_ui\/css\/sass\/_normalize\.scss}line{font-family:\0000324}}
+audio,
+canvas,
+video {
+  display: inline-block;
+}
+
+/* Prevent modern browsers from displaying `audio` without controls. Remove excess height in iOS 5 devices. */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nickkatarow\/Sites\/nkatarow\.net\/_ui\/css\/sass\/_normalize\.scss}line{font-family:\0000329}}
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/* Address styling not present in IE 8/9. */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nickkatarow\/Sites\/nkatarow\.net\/_ui\/css\/sass\/_normalize\.scss}line{font-family:\0000335}}
+[hidden] {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nickkatarow\/Sites\/nkatarow\.net\/_ui\/css\/sass\/_normalize\.scss}line{font-family:\0000343}}
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Remove default margin. */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nickkatarow\/Sites\/nkatarow\.net\/_ui\/css\/sass\/_normalize\.scss}line{font-family:\0000350}}
+body {
+  margin: 0;
+}
+
+/* Address `outline` inconsistency between Chrome and other browsers. */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nickkatarow\/Sites\/nkatarow\.net\/_ui\/css\/sass\/_normalize\.scss}line{font-family:\0000357}}
+a:focus {
+  outline: thin dotted;
+}
+
+/* Improve readability when focused and also mouse hovered in all browsers. */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nickkatarow\/Sites\/nkatarow\.net\/_ui\/css\/sass\/_normalize\.scss}line{font-family:\0000363}}
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* Address variable `h1` font-size and margin within `section` and `article` contexts in Firefox 4+, Safari 5, and Chrome. */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nickkatarow\/Sites\/nkatarow\.net\/_ui\/css\/sass\/_normalize\.scss}line{font-family:\0000370}}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Address styling not present in IE 8/9, Safari 5, and Chrome. */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nickkatarow\/Sites\/nkatarow\.net\/_ui\/css\/sass\/_normalize\.scss}line{font-family:\0000376}}
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/* Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome. */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nickkatarow\/Sites\/nkatarow\.net\/_ui\/css\/sass\/_normalize\.scss}line{font-family:\0000382}}
+b,
+strong {
+  font-weight: bold;
+}
+
+/* Address styling not present in Safari 5 and Chrome. */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nickkatarow\/Sites\/nkatarow\.net\/_ui\/css\/sass\/_normalize\.scss}line{font-family:\0000387}}
+dfn {
+  font-style: italic;
+}
+
+/* Address differences between Firefox and other browsers.*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nickkatarow\/Sites\/nkatarow\.net\/_ui\/css\/sass\/_normalize\.scss}line{font-family:\0000392}}
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+/* Address styling not present in IE 8/9. */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nickkatarow\/Sites\/nkatarow\.net\/_ui\/css\/sass\/_normalize\.scss}line{font-family:\0000399}}
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/* Correct font family set oddly in Safari 5 and Chrome. */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nickkatarow\/Sites\/nkatarow\.net\/_ui\/css\/sass\/_normalize\.scss}line{font-family:\00003108}}
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+
+/* Improve readability of pre-formatted text in all browsers. */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nickkatarow\/Sites\/nkatarow\.net\/_ui\/css\/sass\/_normalize\.scss}line{font-family:\00003114}}
+pre {
+  white-space: pre-wrap;
+}
+
+/* Set consistent quote types. */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nickkatarow\/Sites\/nkatarow\.net\/_ui\/css\/sass\/_normalize\.scss}line{font-family:\00003119}}
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+/* Address inconsistent and variable font size in all browsers.*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nickkatarow\/Sites\/nkatarow\.net\/_ui\/css\/sass\/_normalize\.scss}line{font-family:\00003124}}
+small {
+  font-size: 80%;
+}
+
+/* Prevent `sub` and `sup` affecting `line-height` in all browsers. */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nickkatarow\/Sites\/nkatarow\.net\/_ui\/css\/sass\/_normalize\.scss}line{font-family:\00003130}}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nickkatarow\/Sites\/nkatarow\.net\/_ui\/css\/sass\/_normalize\.scss}line{font-family:\00003136}}
+sup {
+  top: -0.5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nickkatarow\/Sites\/nkatarow\.net\/_ui\/css\/sass\/_normalize\.scss}line{font-family:\00003139}}
+sub {
+  bottom: -0.25em;
+}
+
+/* Remove border when inside `a` element in IE 8/9. */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nickkatarow\/Sites\/nkatarow\.net\/_ui\/css\/sass\/_normalize\.scss}line{font-family:\00003145}}
+img {
+  border: 0;
+}
+
+/* Correct overflow displayed oddly in IE 9. */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nickkatarow\/Sites\/nkatarow\.net\/_ui\/css\/sass\/_normalize\.scss}line{font-family:\00003150}}
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Address margin not present in IE 8/9 and Safari 5. */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nickkatarow\/Sites\/nkatarow\.net\/_ui\/css\/sass\/_normalize\.scss}line{font-family:\00003156}}
+figure {
+  margin: 0;
+}
+
+/* Define consistent border, margin, and padding. */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nickkatarow\/Sites\/nkatarow\.net\/_ui\/css\/sass\/_normalize\.scss}line{font-family:\00003162}}
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nickkatarow\/Sites\/nkatarow\.net\/_ui\/css\/sass\/_normalize\.scss}line{font-family:\00003170}}
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nickkatarow\/Sites\/nkatarow\.net\/_ui\/css\/sass\/_normalize\.scss}line{font-family:\00003181}}
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 2 */
+  margin: 0;
+  /* 3 */
+}
+
+/* Address Firefox 4+ setting `line-height` on `input` using `!important` in the UA stylesheet. */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nickkatarow\/Sites\/nkatarow\.net\/_ui\/css\/sass\/_normalize\.scss}line{font-family:\00003189}}
+button,
+input {
+  line-height: normal;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nickkatarow\/Sites\/nkatarow\.net\/_ui\/css\/sass\/_normalize\.scss}line{font-family:\00003198}}
+button,
+select {
+  text-transform: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nickkatarow\/Sites\/nkatarow\.net\/_ui\/css\/sass\/_normalize\.scss}line{font-family:\00003208}}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */
+}
+
+/* Re-set default cursor for disabled elements. */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nickkatarow\/Sites\/nkatarow\.net\/_ui\/css\/sass\/_normalize\.scss}line{font-family:\00003215}}
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nickkatarow\/Sites\/nkatarow\.net\/_ui\/css\/sass\/_normalize\.scss}line{font-family:\00003222}}
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nickkatarow\/Sites\/nkatarow\.net\/_ui\/css\/sass\/_normalize\.scss}line{font-family:\00003229}}
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box;
+}
+
+/* Remove inner padding and search cancel button in Safari 5 and Chrome on OS X. */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nickkatarow\/Sites\/nkatarow\.net\/_ui\/css\/sass\/_normalize\.scss}line{font-family:\00003238}}
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* Remove inner padding and border in Firefox 4+. */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nickkatarow\/Sites\/nkatarow\.net\/_ui\/css\/sass\/_normalize\.scss}line{font-family:\00003244}}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nickkatarow\/Sites\/nkatarow\.net\/_ui\/css\/sass\/_normalize\.scss}line{font-family:\00003251}}
+textarea {
+  overflow: auto;
+  /* 1 */
+  vertical-align: top;
+  /* 2 */
+}
+
+/* Remove most spacing between table cells. */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nickkatarow\/Sites\/nkatarow\.net\/_ui\/css\/sass\/_normalize\.scss}line{font-family:\00003258}}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}

@@ -1,0 +1,12 @@
+*.DS_Store
+*.gz
+*.tmp
+
+.DS_Store
+.buildpath
+.log
+.project
+.sass-cache
+
+node_modules
+Thumbs.db
