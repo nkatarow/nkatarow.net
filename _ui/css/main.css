@@ -281,3 +281,16 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nickkatarow\/Sites\/nkatarow\.net\/_ui\/css\/sass\/_typography\.scss}line{font-family:\000033}}
+body {
+  color: #333333;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/nickkatarow\/Sites\/nkatarow\.net\/_ui\/css\/sass\/_utility\.scss}line{font-family:\000033}}
+.offscreen {
+  display: block;
+  left: -999999px;
+  position: absolute;
+  top: -999999px;
+}

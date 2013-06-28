@@ -1,0 +1,99 @@
+// LAYOUT STYLES
+
+// GENERAL
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+}
+
+
+// MAIN CONTAINER
+// Centers and adds mobile margins
+.container {
+    margin: 0 auto;
+    max-width: 70em;
+    padding: 0 15px;
+}
+
+
+// GRID
+.row {
+    //margin-bottom: $a-gutter;
+    overflow: hidden;
+
+    &:after {
+        @include clearfix;
+    }
+}
+
+// Columns
+.col {
+    display: block;
+    float: left;
+    padding-right: $a-gutter;
+    width: 100%;
+
+    .row &:last-of-type {
+        padding-right: 0;
+    }
+}
+
+// Standard 12 wide grid
+.wide-1 { width: 8.33%; }
+.wide-2 { width: 16.66%; }
+.wide-3 { width: 24.99%; }
+.wide-4 { width: 33.32%; }
+.wide-5 { width: 41.65%; }
+.wide-6 { width: 49.98%; }
+.wide-7 { width: 58.31%; }
+.wide-8 { width: 66.64%; }
+.wide-9 { width: 74.97%; }
+.wide-10 { width: 83.3%; }
+.wide-11 { width: 91.63%; }
+.wide-12 { width: 100%; }
+
+
+// DESKTOP
+@media ( min-width: $breakpoint-b ) {
+    // Removes mobile margins
+    .container {
+        padding: 0;
+        max-width: 70em;
+    }
+    // Allows content to go full width on mobile and still centered in browser on desktop
+    .b-container {
+        margin: 0 auto;
+        max-width: 70em;
+    }
+
+    .row {
+        //margin-bottom: $b-gutter;
+    }
+
+    .col {
+        padding-right: $b-gutter;
+
+        &:first-child {
+            padding-left: 0;
+        }
+
+    }
+
+    // Standard 12 wide grid
+    .b-wide-1 { width: 8.33%; }
+    .b-wide-2 { width: 16.66%; }
+    .b-wide-3 { width: 24.99%; }
+    .b-wide-4 { width: 33.32%; }
+    .b-wide-5 { width: 41.65%; }
+    .b-wide-6 { width: 49.98%; }
+    .b-wide-7 { width: 58.31%; }
+    .b-wide-8 { width: 66.64%; }
+    .b-wide-9 { width: 74.97%; }
+    .b-wide-10 { width: 83.3%; }
+    .b-wide-11 { width: 91.63%; }
+    .b-wide-12 { width: 100%; }
+}
