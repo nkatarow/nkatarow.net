@@ -1,1 +1,41 @@
 // CHROME
+
+header {
+    @include gradient($dark-blue, $blue);
+
+    color: $white;
+    padding: 2em 0;
+    text-align: center;
+}
+
+nav {
+    font-size: 1.6em;
+    margin: 1em 0;
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+        text-transform: uppercase;
+        font-weight: 800;
+
+        li {
+            float: left;
+
+            a {
+                color: $dark-grey;
+                padding: 0.5em;
+                text-decoration: none;
+
+                &:first-child {
+                    padding-left: 0;
+                }
+
+                &:hover,
+                &:focus {
+                    background-color: $blue;
+                    color: $white;
+                }
+            }
+        }
+    }
+}

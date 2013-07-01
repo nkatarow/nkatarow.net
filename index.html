@@ -12,11 +12,11 @@
 <body>
     <header role="banner">
         <h1>Nick Katarow</h1>
-        <h2 class="subhead">Front End Developer</h2>
+        <h2>Front End Developer</h2>
     </header>
 
-    <nav role="navigation">
-        <ul>
+    <nav role="navigation" class="row">
+        <ul class="container">
             <li><a href="#about">About</a></li>
             <li><a href="#work">Work</a></li>
             <li><a href="#contact">Contact</a></li>
@@ -25,16 +25,28 @@
 
     <div class="main" role="main">
 
-        <section id="about">
-            <h2>About</h2>
+        <section id="about" class="blue">
+            <h2 class="offscreen">About</h2>
+
+            <div class="container row">
+                <div class="col b-wide-4">
+                    <!-- img -->
+                    <p>Bespoke consectetur bicycle rights, cred stumptown thundercats hashtag keytar master cleanse minim. Shoreditch yr sapiente try-hard. Pariatur butcher chillwave hoodie, labore put a bird on it tumblr flexitarian hella Marfa squid semiotics meh. </p>
+                </div>
+                <div class="col b-wide-8">
+                    <p>Bespoke consectetur bicycle rights, cred stumptown thundercats hashtag keytar master cleanse minim. Shoreditch yr sapiente try-hard. Pariatur butcher chillwave hoodie, labore put a bird on it tumblr flexitarian hella Marfa squid semiotics meh. Semiotics Etsy ex trust fund Carles twee, dolore tattooed tousled scenester fap. Mustache quinoa McSweeney's Neutra fingerstache, tumblr vero exercitation Pinterest do meh. Williamsburg brunch Godard, trust fund sapiente sed organic YOLO PBR tempor Neutra before they sold out iPhone squid. Single-origin coffee next level before they sold out Odd Future disrupt umami, Carles fap.</p>
+                </div>
+            </div><!-- / .row -->
+
         </section><!-- / #about -->
 
-        <section id="work" class="blue">
-            <h2>Work</h2>
+        <section id="work">
+            <h2 class="offscreen">Work</h2>
+
         </section><!-- / #work -->
 
         <section id="contact">
-            <h2>Contact</h2>
+            <h2 class="offscreen">Contact</h2>
         </section><!-- / #contact -->
 
     </div><!-- / .main -->
@@ -42,5 +54,6 @@
     <footer role="contentinfo"></footer>
 
     <script src="_ui/compiled/app.min.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800' rel='stylesheet' type='text/css'>
 </body>
 </html>
